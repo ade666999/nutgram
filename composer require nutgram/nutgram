@@ -1,0 +1,11 @@
+use SergiX44\Nutgram\Nutgram;
+
+$bot = new Nutgram('https://api.telegram.org/bot7049099132:AAHgz9oTFAwZne4ijdPDicvLLONEh14ANkY/getMe');
+use SergiX44\Nutgram\Nutgram;
+use SergiX44\Nutgram\Configuration;
+
+$config = new Configuration(
+    clientTimeout: 10, // default in seconds, when contacting the Telegram API
+);
+
+$bot = new Nutgram('7049099132:AAHgz9oTFAwZne4ijdPDicvLLONEh14ANkY', $config);
